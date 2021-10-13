@@ -5,16 +5,19 @@
 int main()
 {
     setlocale(LC_ALL, "portuguese");
-//    2) Faça um algoritmo para receber um número qualquer e informar na tela se é par ou ímpar.
+    //    2) Faï¿½a um algoritmo para receber um nï¿½mero qualquer e informar na tela se ï¿½ par ou ï¿½mpar.
     int numero;
 
-    printf("Digite o número: ");
+    printf("Digite o nï¿½mero: ");
     scanf("%d", &numero);
 
-    if((numero%2) == 0)
+    if ((numero % 2) == 0)
     {
-        printf("\nO número %d é par!\n", numero);
-    } else{
-        printf("\nO número %d é impar!\n", numero);
+        printf("\nO nï¿½mero %d ï¿½ par!\n", numero);
     }
+    else
+    {
+        printf("\nO nï¿½mero %d ï¿½ impar!\n", numero);
+    }
+    return 0;
 }

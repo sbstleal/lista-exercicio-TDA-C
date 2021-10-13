@@ -4,9 +4,9 @@
 
 int main()
 {
-//    3) Faça um algoritmo que leia dois valores inteiros A e B se os valores forem iguais deverá se
-//    somar os dois, caso contrário multiplique A por B. Ao final de qualquer um dos cálculos deve-se
-//    atribuir o resultado para uma variável C e mostrar seu conteúdo na tela.
+    //    3) Faï¿½a um algoritmo que leia dois valores inteiros A e B se os valores forem iguais deverï¿½ se
+    //    somar os dois, caso contrï¿½rio multiplique A por B. Ao final de qualquer um dos cï¿½lculos deve-se
+    //    atribuir o resultado para uma variï¿½vel C e mostrar seu conteï¿½do na tela.
     setlocale(LC_ALL, "portuguese");
 
     int a, b, c;
@@ -19,11 +19,12 @@ int main()
     if (a == b)
     {
         c = a + b;
-        printf("O valor de A  = %d é igual a B = %d, portanto C = %d", a, b, c);
+        printf("O valor de A  = %d ï¿½ igual a B = %d, portanto C = %d", a, b, c);
     }
     else
     {
         c = a * b;
-        printf("O valor de A  = %d é diferente a B = %d, portanto C = %d", a, b, c);
+        printf("O valor de A  = %d ï¿½ diferente a B = %d, portanto C = %d", a, b, c);
     }
+    return 0;
 }

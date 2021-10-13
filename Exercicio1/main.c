@@ -4,7 +4,7 @@
 
 int main()
 {
-//   1) Faça um algoritmo que leia os valores A, B, C e imprima na tela se a soma de A + B é menor
+//   1) Faï¿½a um algoritmo que leia os valores A, B, C e imprima na tela se a soma de A + B ï¿½ menor
 //que C.
 
     setlocale(LC_ALL, "portuguese");
@@ -22,12 +22,13 @@ int main()
 
     if (soma < c)
     {
-        printf("\nA soma de A + B é menor que C.\n");
+        printf("\nA soma de A + B ï¿½ menor que C.\n");
         printf("A = %.2f, B = %.2f, C = %.2f, soma de A + B = %.2f", a, b, c, soma);
     }
     else
     {
-        printf("\nA soma de A + B é maior que C.\n");
+        printf("\nA soma de A + B ï¿½ maior que C.\n");
         printf("A = %.2f, B = %.2f, C = %.2f, soma de A + B = %.2f", a, b, c, soma);
     }
+    return 0;
 }

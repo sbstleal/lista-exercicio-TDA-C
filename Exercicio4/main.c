@@ -4,22 +4,23 @@
 
 int main()
 {
-//    4) Encontrar o dobro de um número caso ele seja positivo e o seu triplo caso seja negativo, imprimindo o resultado.
+    //    4) Encontrar o dobro de um nï¿½mero caso ele seja positivo e o seu triplo caso seja negativo, imprimindo o resultado.
     setlocale(LC_ALL, "portuguese");
 
     int n, resultado;
 
-    printf("Digite o número: ");
+    printf("Digite o nï¿½mero: ");
     scanf("%d", &n);
 
-    if(n > 0)
+    if (n > 0)
     {
         resultado = n + n;
-        printf("O número %d é positivo, resultado: %d", n, resultado);
+        printf("O nï¿½mero %d ï¿½ positivo, resultado: %d", n, resultado);
     }
     else if (n < 0)
     {
         resultado = n + n + n;
-        printf("O número %d é negativo, resultado: %d", n, resultado);
+        printf("O nï¿½mero %d ï¿½ negativo, resultado: %d", n, resultado);
     }
+    return 0;
 }

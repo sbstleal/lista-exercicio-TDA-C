@@ -4,10 +4,10 @@
 
 int main() {
     setlocale(LC_ALL, "portuguese");
-// 10) O IMC – Indice de Massa Corporal é um critério da Organização Mundial de Saúde para dar
-//umaindicação sobre a condição de peso de uma pessoa adulta. A fórmula é IMC = peso / ( altura )
+// 10) O IMC ï¿½ Indice de Massa Corporal ï¿½ um critï¿½rio da Organizaï¿½ï¿½o Mundial de Saï¿½de para dar
+//umaindicaï¿½ï¿½o sobre a condiï¿½ï¿½o de peso de uma pessoa adulta. A fï¿½rmula ï¿½ IMC = peso / ( altura )
 //2
-//Elabore um algoritmo que leia o peso e a altura de um adulto e mostre sua condição de acordo
+//Elabore um algoritmo que leia o peso e a altura de um adulto e mostre sua condiï¿½ï¿½o de acordo
 //com a tabela abaixo.
     float massa, altura, imc;
 
@@ -26,4 +26,5 @@ int main() {
         printf("IMC: %.2f\tSobrepeso\n", imc);
     else if(imc > 30)
         printf("IMC: %.2f\tObesidade grau 1\n", imc);
+    return 0;
 }

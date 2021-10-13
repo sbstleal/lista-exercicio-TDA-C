@@ -5,23 +5,23 @@
 int main()
 {
     setlocale(LC_ALL, "portuguese");
-//    5) Faça um algoritmo que leia uma variável e some 5 caso seja par ou some 8 caso seja ímpar,
-//    imprimir o resultado desta operação.
+    //    5) Faï¿½a um algoritmo que leia uma variï¿½vel e some 5 caso seja par ou some 8 caso seja ï¿½mpar,
+    //    imprimir o resultado desta operaï¿½ï¿½o.
 
     int n, resultado;
 
-    printf("Digite o número: ");
+    printf("Digite o nï¿½mero: ");
     scanf("%d", &n);
 
-    if((n%2) == 0)
+    if ((n % 2) == 0)
     {
         resultado = n + 5;
-        printf("O valor é par, resuldado é %d.\n", resultado);
+        printf("O valor ï¿½ par, resuldado ï¿½ %d.\n", resultado);
     }
     else
     {
         resultado = n + 8;
-        printf("O valor é ímpar, resultado é %d.\n", resultado);
+        printf("O valor ï¿½ ï¿½mpar, resultado ï¿½ %d.\n", resultado);
     }
-
+    return 0;
 }
